@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Gabriel Lins Donato",
+      "profession": "Pentester",
+      "email": "gabriel_donato@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Rafael Nadalini Carvalho",
+      "profession": "Desenvolvedor Front-End",
+      "email": "rafaelnadalinicarvalho@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Alberto Luis da Silva",
+      "profession": "UX",
+      "email": "alberto123@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Teste",
+      "profession": "Teste",
+      "email": "teste@teste.com"
+    }
+  ]
+}
