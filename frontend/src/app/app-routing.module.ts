@@ -1,3 +1,5 @@
+import { UserDeleteComponent } from './components/users/user-delete/user-delete.component';
+import { UserUpdateComponent } from './components/users/user-update/user-update.component';
 import { UsersCreateComponent } from './components/users/users-create/users-create.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -16,6 +18,14 @@ const routes: Routes = [
   {
     path: "users/create",
     component: UsersCreateComponent
+  },
+  {
+    path: "users/update/:id",
+    component: UserUpdateComponent
+  },
+  {
+    path: "users/delete/:id",
+    component: UserDeleteComponent
   }
 ];
 

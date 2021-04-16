@@ -1,24 +1,21 @@
 <mat-card>
-    <mat-card-title>Novo Usuário</mat-card-title>
+    <mat-card-title>Alterar Usuário</mat-card-title>
     <form action="">
         <mat-form-field>
             <input matInput placeholder="Nome" [(ngModel)]="user.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Profissão" [(ngModel)]="user.profession"  name="profession">
+            <input matInput placeholder="Profissão" [(ngModel)]="user.profession" name="profession">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Email" [(ngModel)]="user.email"  name="email">
+            <input matInput placeholder="Email" [(ngModel)]="user.email" name="email">
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="createUser()" color="primary">
-        Salvar
+    <button mat-raised-button (click)="updateUser()" color="primary">
+        Atualizar
     </button>
-    
+
     <button mat-raised-button (click)="cancel()">
         Cancelar
     </button>
 </mat-card>
-
-
-

@@ -5,6 +5,7 @@
     display: flex;
     justify-content: flex-end;
     z-index: 10;
+    background-color: #F3F3F3;
 }
 
 .footer span {
