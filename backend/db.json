@@ -7,12 +7,6 @@
       "email": "alberto123@gmail.com"
     },
     {
-      "id": 4,
-      "name": "Teste",
-      "profession": "Teste",
-      "email": "teste@teste.com"
-    },
-    {
       "name": "Rafael",
       "profession": "Lixeiro",
       "email": "rafael@yahoo.com.br",
@@ -41,12 +35,6 @@
       "profession": "Motorista",
       "email": "diego@gmail.com",
       "id": 9
-    },
-    {
-      "name": "Rafael Nadalini Carvalho",
-      "profession": "TI",
-      "email": "rafaelnadalinicarvalho@gmail.com",
-      "id": 10
     }
   ]
 }
